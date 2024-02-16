@@ -1,0 +1,299 @@
+/* 
+========= RESET ========= 
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    font-size: 62.5%;
+  }
+  
+  body {
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+
+/* 
+========== HEADER ==========
+ */
+
+ header {
+    height: 600px;
+ }
+
+ .media {
+    /* z-index: -1;
+    height: 400px;
+    width: 1000px; */
+    height: 80%;
+    width: 100%;
+    object-fit: cover;
+    z-index: 0;
+    position: absolute;  
+ }
+
+.media i {
+    position: absolute;
+    color: white;
+    left: 50%;
+    top: 500px;
+    height: 100px;  
+ }
+
+ .media p {
+   position: absolute;
+   color: white;
+   left: 35%;
+   top: 300px;
+   font-size: xx-large;
+   
+ }
+
+ .barreNav {
+    display: flex;
+    background-color: #3333339d;
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    z-index: 1;
+    position: relative;
+    
+    
+ }
+
+ nav ul li {
+    display: inline-flex;
+    padding: 1rem;       
+ }
+
+ #recettes {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    justify-content: center;
+ }
+
+ .titreRecettes {
+    font-size: xx-large;
+    text-align: center;
+    width: 100%;
+ }
+
+ .buttonRecettes {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+ }
+
+ .carteRecettes {
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .originalRecettes {
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+ }
+
+ .RTitre {
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: space-between;
+ }
+
+ hr {
+    margin: auto;
+ }
+
+ .RText {
+    font-size: small;
+    padding-top: 3rem;
+ }
+
+ .RButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem;
+ }
+
+ .infos {
+    font-size: x-small;
+    background-color: rgba(97, 17, 17, 0.397);
+    align-items: center;
+    padding: 1rem;
+    border-radius: 16px;
+ }
+
+ .selectionnerOr {
+    font-size: x-small;
+    padding: 1rem;
+ }
+
+ .mojitoRecettes {
+    background-color: rgb(64, 173, 64);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+ }
+
+ .selectionnerMo {
+    font-size: x-small;
+    padding: 1rem;
+ }
+
+ .tropicalRecettes {
+    background-color: rgb(185, 121, 3);
+    color: white;
+    border-radius: 10px;
+    padding: 2rem;
+    width: 80%;
+    margin: auto;
+    margin-top: 3rem;
+ }
+
+ .selectionnerTro {
+    font-size: x-small;
+    padding: 1rem;
+ }
+
+ .choice {
+    background-color: grey;
+    text-align: center;
+    padding: 5rem;
+ }
+
+ .choiceBoisson {
+    font-size: small;
+    padding-top: 1rem;
+ }
+
+ #references {
+    padding-top: 3rem;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+ }
+
+ .refTitre {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large; 
+    flex-direction: column;   
+ }
+
+ .refCat p {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    }
+
+ .refImage {
+    width: 50%;
+    margin: auto;
+    padding-top: 2rem;  
+    display: flex;  
+ }
+
+ .refp {
+    text-align: center;
+    padding: 3rem;
+ }
+
+ .refImageTrois {
+    width: 50%;
+    margin: auto;
+ }
+
+ #carouselAutoplaying {
+    padding-top: 2rem;  
+    display: flex;
+    flex-direction: column; 
+    margin: auto;      
+ }
+
+ .carouselP {
+    display: flex;
+    flex-direction: column;
+    background-image: url(/img/carousel-2.jpg);
+    height: 150px;
+    background-position: bottom;
+    color: white;
+    justify-content: center;
+    text-align: center;
+ }
+
+ .carouselP p {
+    font-size: small;
+ }
+
+ #footer {
+    background-color: grey;
+ }
+ 
+ #contact {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+      
+ }
+ 
+ .form {
+    width: 100%;
+    padding: 0 5rem;
+ }
+
+ .field {
+    display: flex;
+    padding: 1rem 0;  
+    width: 100%;      
+ }
+
+ .label {
+    display: flex;
+    width: 30%;
+    justify-content: flex-end;
+ }
+
+ .input {
+    display: flex;
+    width: 70%;
+    margin: 0 3rem;
+ }
+
+ .form p {
+    text-align: center;
+ }
+
+ .map {
+    display: flex;
+    flex-direction: column;
+ }
+
+ .map p {
+    text-align: center;
+    color: white;
+ }
+
+ .mappy {
+    display: flex;
+    margin: auto;
+    width: 50%;
+    height: 400px;
+    padding-bottom: 5rem;
+    
+ }

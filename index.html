@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/59b11fefb3.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./CSS/main.css">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>   
+        <div class="media">
+            <video class="media" controls autoplay loop muted><source src="./vid/mp4/Pour.mp4" type="video/mp4"></video>
+            <p> Découvrez nos boissons énergisantes !</p>
+            <i class="fa-solid fa-arrow-down fa-bounce"></i>
+       </div>     
+        <div class="barreNav"> 
+            <div>
+                <h1>🍸 Drink 3000</h1>
+            </div>
+            <nav>
+                <ul>
+                    <a href="#recettes"><li>RECETTES</li></a>
+                    <a href="#references"><li>RÉFÉRENCES</li></a>
+                    <a href="#contact"><li>CONTACT</li></a>
+                </ul>
+            </nav>            
+        </div>        
+    </header>
+
+    <main>
+        <div id="recettes">
+            <div class="titreRecettes">
+                <p>NOS RECETTES</p>
+            </div>
+            <div class="buttonRecettes">
+                <div class = "btnEnergie">
+                    <button>ENERGISANTE</button>
+                </div>
+                <div class="btnDesalt">
+                    <button>DÉSALTÉRANTE</button>                
+                </div>
+            </div>
+            <div class="carteRecettes">
+                <div class="originalRecettes">
+                    <div class="RTitre">
+                        <p>Original</p>
+                        <p><i class="fa-solid fa-bolt"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class = "RText">
+                        <p>Boisson énergisante gazeuse, à la taurine et chargée en caféine</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionnerOr">SÉLECTIONNER</p>
+                    </div>
+                </div>
+                
+                <div class="mojitoRecettes">
+                    <div class="RTitre">
+                        <p>Mojito</p>
+                        <p><i class="fa-solid fa-bolt"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class="RText">
+                        <p>Boisson énergisante gazeuse, saveur mojito et sans alcool.</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionnerMo">SÉLECTIONNER</p>
+                    </div>
+                </div> 
+                
+                <div class="tropicalRecettes">
+                    <div class="RTitre">
+                        <p>Tropical</p>
+                        <p><i class="fa-solid fa-snowflake"></i></p>
+                    </div>
+    
+                    <hr color="white" size="1" width="95%">
+    
+                    <div class="RText">
+                        <p>Boisson énergisante gazeuse, à la taurine et chargée en caféine</p>
+                    </div>
+                    <div class="RButton">
+                        <p class="infos">PLUS D'INFOS</p>
+                        <p class="selectionnerTro">SÉLECTIONNER</p>
+                    </div>
+                </div>  
+                  
+            </div>
+        </div>
+        
+
+        <div class="choice">
+            <p>Votre choix :</p>
+            <p class="choiceBoisson">Boisson sélectionnée</p>
+            <p class="nomBoisson"></p>
+        </div>
+
+        <div id="references">
+            <div class="refTitre">
+                <p>NOS RÉFÉRENCES</p>
+            </div>
+            <div>
+                <div class="refCat">
+                    <p>CAFÉS, HÔTELS, RESTAURANTS</p>
+                    <hr color="black" size="1" width="40%">
+                </div>
+                <div class="refImage">
+                    <img class="refImage" src="./img/references/chr.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div>
+                <div class="refCat">
+                    <p>MARQUES</p>
+                    <hr color="black" size="1" width="40%">
+                </div>
+                <div class="refImage">
+                    <img class="refImage" src="./img/references/marques.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div>
+                <div class="refCat">
+                    <p>ASSOCIATIONS, ÉCOLES</p>
+                    <hr color="black" size="1" width="40%">
+                </div>
+                <div class="refImage">
+                    <img class="refImage" src="./img/references/asso.png" alt="Canettes">
+                </div>                
+            </div>
+
+            <div class="refp">
+                <p>Toutes les marques commerciales déposées ou non déposées citées dans ce document sont la propriété exclusive de leurs détenteurs respectifs</p>
+            </div>
+
+            <div>
+                <div class="refCat">
+                    <p>PUBLICITÉS PAR L'OBJET</p>
+                    <hr color="black" size="1" width="40%">
+                </div>
+                <div class="refImageTrois">
+                    <img class="refImage" src="./img/references/pub1.png" alt="Canettes">
+                    <img class="refImage" src="./img/references/pub2.png" alt="Canettes">
+                    <img class="refImage" src="./img/references/pub3.png" alt="Canettes">
+                </div>                
+            </div>
+        </div>
+
+        
+
+        <div id="carouselAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./img/carousel-1.jpg" class="d-block w-100" alt="image 1">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carousel-2.jpg" class="d-block w-100" alt="image 2">
+              </div>
+              <div class="carousel-item">
+                <img src="./img/carousel-3.jpg" class="d-block w-100" alt="image 3">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+            <div class="carouselP">
+                <h3>Garantie 100% fraicheur</h3>
+                <p>Nous garantissons votre satisfaction lors de la dégustation de nos boissons</p>
+            </div>
+          </div>
+
+        <div id="footer">
+            <div id="contact">
+                <p>Nous contacter ?</p>
+                <form class="form">
+
+                    <div class="field">
+                        <label class="label" for="mail">Email</label>
+                        <input class="input" type="email">
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="demande">Objet de la demande</label>
+                        <select class="input" name="demande" id="demande">
+                            <option value="particulier">Particulier</option>
+                            <option value="professionel">Professionnel</option>
+                            <option value="groupe">Groupe</option>
+                        </select>
+                    </div>
+
+                    <div class="field">
+                        <label class="label" for="texte">Votre demande</label>
+                        <input class="input" type="textarea" size="10"> 
+                    </div>
+
+                    <p>ENVOYER</p>
+                    
+                </form>
+            </div>
+
+            <div class="map">
+                <p>Où sommes-nous ?</p>
+                <img class="mappy" src="./img/Capture d’écran 2023-12-14 154053.png" alt="">
+            </div>
+            
+        </div>
+        
+    </main>
+
+    <script src="./JS/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
